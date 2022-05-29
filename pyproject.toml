@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "loralite"
+version = "1.0.0"
+description = "LoRaLitE Protocol simulator"
+authors = ["Sergiusz Michalik <lukasz.s.michalik@uit.no>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sortedcontainers = "^2.4.0"
+numpy = "^1.22.1"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

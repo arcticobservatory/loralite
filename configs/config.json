@@ -1,0 +1,186 @@
+{
+    "general": 
+    {
+        "number_of_devices": 11,
+        "max_packet_nr": 10000,
+        "sim_duration_s": 31536000,
+        "time_unit": "ms",
+        "second_in_unit": 1000,
+        "save_schedule_to_file": true,
+        "cdppm": 5,
+        "perform_clock_drift": false,
+        "quit_on_failure": false
+    },
+    "device":
+    {
+        "sch_on_duration_ms": 50,
+        "sch_off_duration_ms": 20
+    },
+    "radio":
+    {
+        "receive_call_interval_ms": 10,
+        "mode_change_ms": 10
+    },
+    "lora":
+    {
+        "bytes_to_send": 0,
+        "payload_size": 51
+    },
+    "wcm":
+    {
+        "device_type": "arthemis_nano",
+        "radio_type": "sx1262",
+        "first_op_at_s": 1,
+        "send_delay_s": 0,
+        "send_interval_s": 600,
+        "disc_interval_s": 600,
+        "first_disc_at_cmd_nr": -1,
+        "dc_interval_s": 600,
+        "first_dc_at_cmd_nr": -1,
+        "disc_every_n_cmd": 140,
+        "dc_every_n_cmd": -1,
+        "repeat_cmd_n_times": 1,
+        "disc_window_s": 20,
+        "dc_window_s": 20,
+        "dc_after_disc": true
+    },
+    "wcl": 
+    {
+        "device_type": "arthemis_nano",
+        "radio_type": "sx1262",
+        "first_op_at_s": 0,
+        "guard_time_ms": 500,
+        "op_duration_ms": 0,
+        "reply_gt_ms": 50,
+        "sleep_before_slot": false
+    },
+    "lwangw":
+    {
+        "device_type": "arthemis_nano",
+        "radio_type": "ic880a_4paths",
+        "first_op_at_s": 0
+    },
+    "lwaned":
+    {
+        "device_type": "arthemis_nano",
+        "radio_type": "sx1262",
+        "first_op_at_s": 1,
+        "separation_s": 10,
+        "send_delay_s": 0,
+        "send_interval_s": 600
+    },
+    "energy":
+    {
+        "save_to_file": false,
+        "debug": false,
+        "v_load_drop": 0.0,
+        "device":
+        {
+            "arthemis_nano":
+            {
+                "sleep_a": 0.000001,
+                "on_a": 0.0005,
+                "op_a": 0.0,
+                "v": 5.025
+            }
+        },
+        "radio":
+        {
+            "sx1276":
+            {
+                "sleep_a": 0.0000007,
+                "on_a": 0.0,
+                "rx_a": 0.012,
+                "tx_a": 0.12,
+                "v": 5.025
+            },
+            "sx1262":
+            {
+                "sleep_a": 0.0000007,
+                "on_a": 0.0,
+                "rx_a": 0.0043,
+                "tx_a": 0.045,
+                "v": 5.025
+            },
+            "ic880a_4paths":
+            {
+                "sleep_a": 0.0,
+                "on_a": 0.0,
+                "rx_a": 0.288,
+                "tx_a": 0.3,
+                "v": 5.025
+            },
+            "ic880a_10paths":
+            {
+                "sleep_a": 0.0,
+                "on_a": 0.0,
+                "rx_a": 0.428,
+                "tx_a": 0.3,
+                "v": 5.025
+            }
+        }
+    },
+    "locations": [
+        [500, 0, 0],
+        [270, -1740, 0],
+        [1113, -619, 0],
+        [371, 1061, 0],
+        [-1277, -425, 0],
+        [1705, -1420, 0],
+        [-971, 958, 0],
+        [201, 1858, 0],
+        [2316, -253, 0],
+        [-694, -631, 0],
+        [-745, -606, 0],
+        [1937, -860, 0],
+        [-361, -840, 0],
+        [2003, 355, 0],
+        [-102, 342, 0],
+        [1003, -1780, 0],
+        [-58, -418, 0],
+        [2294, 873, 0],
+        [-853, -311, 0],
+        [56, -1713, 0],
+        [856, -80, 0],
+        [1703, -1485, 0],
+        [281, -1502, 0],
+        [1353, 811, 0],
+        [1751, 1441, 0],
+        [1410, -1725, 0],
+        [-819, -888, 0],
+        [1269, 884, 0],
+        [907, 1026, 0],
+        [1024, 660, 0],
+        [-702, -1261, 0],
+        [-156, 1491, 0],
+        [1772, -1230, 0],
+        [539, -1724, 0],
+        [-319, 121, 0],
+        [2090, -369, 0],
+        [-674, 1118, 0],
+        [2088, -782, 0],
+        [872, -163, 0],
+        [857, 1315, 0],
+        [2311, -719, 0],
+        [1615, -14, 0],
+        [-1298, -570, 0],
+        [-536, 803, 0],
+        [1177, 466, 0],
+        [276, -581, 0],
+        [-894, -1405, 0],
+        [-510, 314, 0],
+        [2431, -305, 0],
+        [467, -1957, 0],
+        [-882, 652, 0],
+        [-563, -633, 0],
+        [339, -1553, 0],
+        [-1042, -953, 0],
+        [1786, -486, 0],
+        [-679, 800, 0],
+        [-193, 757, 0],
+        [1748, -954, 0],
+        [871, -1426, 0],
+        [1052, 1451, 0],
+        [-1466, 16, 0]
+    ]
+}
